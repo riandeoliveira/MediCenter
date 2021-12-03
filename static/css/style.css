@@ -1,8 +1,19 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     outline: 0;
     padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --strong-font: 'Source Sans Pro';
+    --standard-font: 'Open Sans';
+    --reserve-fonts: Arial, sans-serif;
 }
 
 header {
@@ -12,13 +23,133 @@ header {
 }
 
 .container {
-    background-color: #fff;
     display: flex;
     justify-content: space-between;
     width: 990px;
 }
 
-.logo > img {
-    width: 200px;
-    height: 100px;
+.logo {
+    align-items: center;
+    display: flex;
+    font-family: var(--strong-font), var(--reserve-fonts);
+}
+
+.logo > a {
+    color: #000;
+    display: flex;
+}
+
+.logo img {
+    margin-right: 20px;
+}
+
+.logo h1 {
+    font-weight: normal;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: #666666;
+    display: block;
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+nav .active,
+nav a:hover {
+    background-color: #42b3e5;
+    color: #fff;
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 670px;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: var(--strong-font), var(--reserve-fonts);
+    justify-content: center;
+}
+
+.banner-headline > h2 {
+    color: #fff;
+    font-size: 70px;
+    max-width: 350px;
+    text-shadow: 0px 1px 0px #555;
+}
+
+.banner-headline > h3 {
+    color: #fff;
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+.banner-options {
+    display: flex;
+    height: 210px;
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+    color: #FFF;
+    flex: 1;
+    padding: 20px;
+}
+
+.banner-1 {
+    background-color: #42b3e5;
+}
+
+.banner-2 {
+    background-color: #0384ce;
+}
+
+.banner-3 {
+    background-color: #3156a3;
+}
+
+.banner-title {
+    font-family: var(--strong-font), var(--reserve-fonts);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.banner-description > p {
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
+    margin: 15px 0 15px;
+}
+
+.banner-options a {
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: inline-block;
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
+    padding: 5px;
 }
