@@ -76,6 +76,18 @@ nav a:hover {
     transition: all 0.1s linear;
 }
 
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+    width: 40px;
+}
+
+.menu-icon {
+    fill: #42B3E5;
+}
+
 .banner {
     background-image: url("../images/banner.jpg");
     background-position: center;
@@ -438,4 +450,84 @@ footer .widget-title-text {
     height: 40px;
     line-height: 40px;
     margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    nav ul {
+        background-color: #fff;
+        display: none;
+        flex-direction: column;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .banner-headline {
+        padding: 20px;
+    }
+
+    .banner-headline > h2 {
+        font-size: 55px;
+    }
+
+    .banner-headline > h3 {
+        font-size: 17px;
+    }
+
+    .banner-options {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .general {
+        padding: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copyright {
+        padding-left: 20px;
+    }
 }
