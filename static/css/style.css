@@ -118,14 +118,6 @@ nav a:hover {
     height: 250px;
 }
 
-.banner-1,
-.banner-2,
-.banner-3 {
-    color: #FFF;
-    flex: 1;
-    padding: 25px 30px 30px;
-}
-
 .banner-1 {
     background-color: #42b3e5;
 }
@@ -136,6 +128,14 @@ nav a:hover {
 
 .banner-3 {
     background-color: #3156a3;
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+    color: #FFF;
+    flex: 1;
+    padding: 25px 30px 30px;
 }
 
 .banner-title {
@@ -256,4 +256,75 @@ article {
     color: #5C5C5C;
     margin-bottom: 30px;
     line-height: 20px;
+}
+
+footer {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    background-color: red;
+    flex-direction: column;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.menu-1 {
+    background-color: #42b3e5;
+}
+
+.menu-2 {
+    background-color: #0384ce;
+}
+
+.menu-3 {
+    background-color: #3156a3;
+}
+
+.menu-1,
+.menu-2,
+.menu-3 {
+    color: #fff;
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-area {
+    color: #fff;
+    display: flex;
+}
+
+footer .widget-title-text {
+    color: #fff;
+}
+
+.area-item {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-copyright {
+    border-top: 1px solid #2c2c2c;
+    color: #5c5c5c;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
 }
