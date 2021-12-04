@@ -201,6 +201,7 @@ aside {
 .widget-title-text {
     color: #000;
     font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 20px;
 }
 
 .widget-title-bar {
@@ -213,6 +214,8 @@ aside {
 .widget-body {
     display: flex;
     flex-wrap: wrap;
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
 }
 
 article {
@@ -265,7 +268,6 @@ footer {
 }
 
 .flex-column {
-    background-color: red;
     flex-direction: column;
 }
 
@@ -288,10 +290,43 @@ footer {
 .menu-1,
 .menu-2,
 .menu-3 {
-    color: #fff;
+    color: #FFF;
     flex: 1;
-    padding: 20px;
+    padding: 25px 30px 30px;
 }
+
+.menu-title {
+    color: #fff;
+    font-family: var(--strong-font), var(--reserve-fonts);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.menu-description {
+    color: #fff;
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-area {
     color: #fff;
@@ -300,19 +335,84 @@ footer {
 
 footer .widget-title-text {
     color: #fff;
+    font-weight: normal;
+}
+
+.external-links {
+    margin-top: 20px;
+}
+
+.social-media-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-media-icon {
+    background-color: #2c2c2c;
+    display: flex;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.social-media-icon > svg {
+    fill: #5c5c5c;
 }
 
 .area-item {
     flex: 1;
+    margin-right: 20px;
 }
 
+.widget-description {
+    color: #5c5c5c;
+    line-height: 1.5;
+}
 
+.contacts {
+    color: #5c5c5c;
+    margin-top: 20px;
+}
 
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+}
 
+.contacts-list ul {
+    list-style: none;
+}
 
+.mail {
+    color: #fff;
+}
 
+.post {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
 
+.post-date {
+    color: #42b3e5;
+}
 
+.tweet {
+    margin-bottom: 20px;
+}
+
+.tweet-content {
+    color: #5c5c5c;
+    font-family: var(--standard-font), var(--reserve-fonts);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tweet-link {
+    color: #fff;
+}
+
+.tweet-date {
+    color: #42b3e5;
+}
 
 
 
@@ -324,6 +424,7 @@ footer .widget-title-text {
 .footer-copyright {
     border-top: 1px solid #2c2c2c;
     color: #5c5c5c;
+    font-family: var(--standard-font), var(--reserve-fonts);
     height: 40px;
     line-height: 40px;
     margin-top: 30px;
