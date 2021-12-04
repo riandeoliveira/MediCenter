@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    list-style: none;
     margin: 0;
     outline: 0;
     padding: 0;
@@ -56,7 +57,6 @@ header {
 
 nav ul {
     display: flex;
-    list-style: none;
 }
 
 nav a {
@@ -170,7 +170,6 @@ nav a:hover {
 .banner-description > ul {
     font-family: var(--standard-font), var(--reserve-fonts);
     font-size: 14px;
-    list-style: none;
     margin-top: 5px;
 }
 
@@ -252,6 +251,8 @@ article {
 
 .news-title {
     color: #000;
+    font-size: 24px;
+    font-weight: bold;
     margin: 25px 0;
 }
 
@@ -259,6 +260,45 @@ article {
     color: #5C5C5C;
     margin-bottom: 30px;
     line-height: 20px;
+}
+
+.departments-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.departments {
+    background-color: #42b3e5;
+    height: 190px;
+    margin-bottom: 20px;
+    width: 190px;
+}
+
+.appointments {
+    border-top: 1px solid #E6E5E6;
+    margin: 30px 0 30px 0;
+}
+
+.appointments li {
+    align-items: center;
+    border-bottom: 1px solid #E6E5E6;
+    display: flex;
+    padding: 15px 0;
+}
+
+.appointments label {
+    margin-left: 10px;
+}
+
+.contact-icon {
+    background-color: #BFBEC0;
+    display: flex;
+    padding: 5px;
+}
+
+.contact-icon > svg {
+    fill: #fff;
 }
 
 footer {
@@ -310,24 +350,6 @@ footer {
     margin: 15px 0 0 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-area {
     color: #fff;
     display: flex;
@@ -344,7 +366,6 @@ footer .widget-title-text {
 
 .social-media-links {
     display: flex;
-    list-style: none;
 }
 
 .social-media-icon {
@@ -378,10 +399,6 @@ footer .widget-title-text {
     justify-content: space-between;
 }
 
-.contacts-list ul {
-    list-style: none;
-}
-
 .mail {
     color: #fff;
 }
@@ -413,13 +430,6 @@ footer .widget-title-text {
 .tweet-date {
     color: #42b3e5;
 }
-
-
-
-
-
-
-
 
 .footer-copyright {
     border-top: 1px solid #2c2c2c;
