@@ -504,8 +504,6 @@ footer .widget-title-text {
         display: flex;
         justify-content: end;
     }
-
-    /* ARRUMAR O MENU AQUI */
 }
 
 @media (max-width: 1016px) {
