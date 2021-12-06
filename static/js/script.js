@@ -1,7 +1,11 @@
+let openMenu = false;
+
 const showNavigationMenu = () => {
-    if (navigationMenu.style.display === "flex") {
-        navigationMenu.style.display = "none";
-    } else {
+    if (openMenu === false) {
+        openMenu = true;
         navigationMenu.style.display = "flex";
+    } else {
+        openMenu = false;
+        navigationMenu.style.display = "none";
     }
 }
