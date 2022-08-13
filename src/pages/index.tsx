@@ -1,4 +1,4 @@
-import Main from "components/Main";
+import Main from "templates/Main";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {

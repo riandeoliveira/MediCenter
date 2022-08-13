@@ -1,4 +1,4 @@
-@use "../colors" as *;
+@use "./colors" as *;
 
 @mixin accessibility($color) {
   border-radius: 0.25rem;
