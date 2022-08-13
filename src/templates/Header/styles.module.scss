@@ -32,6 +32,44 @@
   font-weight: 500;
 }
 
+.mobile_menu {
+  display: none;
+}
+
+.button {
+  @include accessibility($primary-420);
+
+  background-color: transparent;
+  color: $primary-420;
+  cursor: pointer;
+  display: flex;
+}
+
 .list {
   display: flex;
+}
+
+@include media-query($laptop-s) {
+  .mobile_menu {
+    display: flex;
+  }
+
+  .nav {
+    border: 1px solid $primary-420;
+    border-radius: 4px;
+    display: none;
+    left: 16px;
+    position: absolute;
+    right: 16px;
+    top: 120px;
+  }
+
+  .list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .active {
+    display: flex;
+  }
 }
