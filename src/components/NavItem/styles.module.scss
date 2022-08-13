@@ -17,4 +17,8 @@
     background-color: $primary-420;
     color: $secondary-000;
   }
+
+  @include media-query($laptop-s) {
+    width: 100%;
+  }
 }

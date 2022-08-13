@@ -1,12 +1,12 @@
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-interface MenuItemProps {
+interface NavItemProps {
   path: string;
   title: string;
 }
 
-const MenuItem = ({ path, title }: MenuItemProps): JSX.Element => {
+const NavItem = ({ path, title }: NavItemProps): JSX.Element => {
   return (
     <li className={styles.item}>
       <Link href={path}>
@@ -16,4 +16,4 @@ const MenuItem = ({ path, title }: MenuItemProps): JSX.Element => {
   );
 };
 
-export default MenuItem;
+export default NavItem;
