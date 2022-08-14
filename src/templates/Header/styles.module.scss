@@ -2,6 +2,7 @@
 
 .header {
   display: flex;
+  font-family: $primary-group;
   height: 120px;
   justify-content: center;
   padding: 0 16px;
@@ -55,13 +56,13 @@
   }
 
   .nav {
-    border: 1px solid $primary-420;
+    background-color: $secondary-000;
     border-radius: 4px;
     display: none;
     left: 50%;
     position: absolute;
     right: 16px;
-    top: 120px;
+    top: 130px;
   }
 
   .list {
