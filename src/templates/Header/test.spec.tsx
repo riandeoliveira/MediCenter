@@ -30,7 +30,7 @@ describe("Header Template", () => {
   it("should open mobile menu", () => {
     render(<Header />);
 
-    const button = screen.getByRole("button", { expanded: false });
+    const button: HTMLElement = screen.getByRole("button", { expanded: false });
 
     fireEvent.click(button);
 
