@@ -26,6 +26,7 @@ const Header = (): JSX.Element => {
           <button
             type="button"
             title="Mobile menu button"
+            aria-expanded={menuIsOpen ? "true" : "false"}
             className={styles.button}
             onClick={toggleMenu}
           >
