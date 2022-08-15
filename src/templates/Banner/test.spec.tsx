@@ -11,30 +11,31 @@ describe("Banner Template", () => {
   it("should have the correct title", () => {
     render(<Banner />);
 
-    const title: string | null = screen.getByRole("heading", {
+    const title: HTMLElement = screen.getByRole("heading", {
       level: 2,
-    }).textContent;
+      name: "Top notch experience",
+    });
 
-    expect(title).toEqual("Top notch experience");
+    expect(title).toBeInTheDocument();
   });
 
   it("should have three banner cards", () => {
     render(<Banner />);
 
-    const titlesLength: number = screen.getAllByRole("heading", {
+    const titles: HTMLElement[] = screen.getAllByRole("heading", {
       level: 3,
-    }).length;
+    });
 
-    expect(titlesLength).toEqual(3);
+    expect(titles).toHaveLength(3);
   });
 
   it("should have three list items inside the last banner card", () => {
     render(<Banner />);
 
     const listElement: HTMLElement = screen.getByRole("list");
-    const listItemsLength: number =
-      within(listElement).getAllByRole("listitem").length;
+    const listItems: HTMLElement[] =
+      within(listElement).getAllByRole("listitem");
 
-    expect(listItemsLength).toEqual(3);
+    expect(listItems).toHaveLength(3);
   });
 });
