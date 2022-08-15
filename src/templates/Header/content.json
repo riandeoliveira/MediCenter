@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Home",
+    "path": "/home"
+  },
+  {
+    "title": "Blog",
+    "path": "/blog"
+  },
+  {
+    "title": "Pages",
+    "path": "/pages"
+  },
+  {
+    "title": "Departments",
+    "path": "/departments"
+  },
+  {
+    "title": "Timetable",
+    "path": "/timetable"
+  },
+  {
+    "title": "Gallery",
+    "path": "/gallery"
+  },
+  {
+    "title": "Contact",
+    "path": "/contact"
+  },
+  {
+    "title": "Shop",
+    "path": "/shop"
+  }
+]

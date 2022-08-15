@@ -1,13 +1,12 @@
-import Main from "templates/Main";
 import type { NextPage } from "next";
+import Banner from "templates/Banner";
+import Header from "templates/Header";
 
 const Home: NextPage = (): JSX.Element => {
   return (
     <>
-      <Main>
-        <h1>Hello, Rian Oliveira!</h1>
-        <h2>Have a nice coding ;)</h2>
-      </Main>
+      <Header />
+      <Banner />
     </>
   );
 };

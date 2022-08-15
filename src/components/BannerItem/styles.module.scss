@@ -1,0 +1,74 @@
+@use "../../styles" as *;
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 26px 32px;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: $secondary-group;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.content {
+  font-family: $primary-group;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 16px 0 26px;
+}
+
+.link {
+  @include accessibility($secondary-000);
+
+  border: 1px solid $secondary-000;
+  color: $secondary-000;
+  font-family: $primary-group;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 18px;
+  transition: background-color 0.15s, box-shadow 0.15s, color 0.15s;
+  width: 120px;
+
+  &:hover {
+    background-color: $secondary-000;
+    color: $secondary-600;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-group;
+}
+
+.item_0 {
+  background-color: $primary-420;
+  border-radius: 12px 0 0;
+  justify-content: space-between;
+}
+
+.item_1 {
+  background-color: $primary-590;
+  justify-content: space-between;
+}
+
+.item_2 {
+  background-color: $primary-580;
+  border-radius: 0 12px 0 0;
+  gap: 4px;
+}
+
+@include media-query($tablet-l) {
+  .item_0,
+  .item_2 {
+    border-radius: 0;
+  }
+}
