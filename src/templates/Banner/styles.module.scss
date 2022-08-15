@@ -6,8 +6,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  height: calc(100vh - 80px);
   justify-content: center;
-  min-height: 800px;
 }
 
 .section_container {
@@ -29,13 +29,25 @@
 }
 
 .title {
-  font-size: 48px;
+  font-size: clamp(24px, 10vw, 64px);
+  text-shadow: 2px 0 6px $secondary-880;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 18px;
+  text-shadow: 2px 0 6px $secondary-880;
 }
 
 .banner_items {
   display: flex;
+}
+
+@include media-query($tablet-l) {
+  .section_container {
+    height: 1200px;
+  }
+
+  .banner_items {
+    flex-direction: column;
+  }
 }
