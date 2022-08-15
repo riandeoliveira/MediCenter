@@ -38,7 +38,7 @@
   text-shadow: 2px 0 6px $secondary-880;
 }
 
-.banner_items {
+.cards {
   display: flex;
 }
 
@@ -47,7 +47,7 @@
     height: 1200px;
   }
 
-  .banner_items {
+  .cards {
     flex-direction: column;
   }
 }

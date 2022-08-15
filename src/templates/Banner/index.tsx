@@ -1,5 +1,5 @@
-import BannerItem from "components/BannerItem";
-import bannerItems from "./content";
+import Card from "components/Card";
+import cards from "./content";
 import styles from "./styles.module.scss";
 
 const Banner = (): JSX.Element => {
@@ -8,16 +8,17 @@ const Banner = (): JSX.Element => {
       <div className={styles.section_container}>
         <div className={styles.heading}>
           <h2 className={styles.title}>
-            Top notch <br /> experience
+            Top notch <br />
+            experience
           </h2>
           <p className={styles.description}>
-            Medicenter is a responsive template <br /> perfect for all screen
-            sizes
+            Medicenter is a responsive template <br />
+            perfect for all screen sizes
           </p>
         </div>
-        <div className={styles.banner_items}>
-          {bannerItems.map(({ type, title, content, schedules }, i) => (
-            <BannerItem
+        <div className={styles.cards}>
+          {cards.map(({ type, title, content, schedules }, i) => (
+            <Card
               id={i}
               type={type}
               title={title}

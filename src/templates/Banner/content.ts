@@ -1,6 +1,6 @@
-import type { IBannerItem } from "interfaces";
+import type { ICard } from "interfaces";
 
-const bannerItems: IBannerItem[] = [
+const cards: ICard[] = [
   {
     title: "Emergency Case",
     content:
@@ -33,4 +33,4 @@ const bannerItems: IBannerItem[] = [
   },
 ];
 
-export default bannerItems;
+export default cards;

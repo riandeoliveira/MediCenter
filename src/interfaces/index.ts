@@ -1,13 +1,13 @@
-import type { BannerItemType } from "types";
+import type { CardType } from "types";
 
 export interface ISchedule {
   days: string;
   hours: string;
 }
 
-export interface IBannerItem {
+export interface ICard {
   content?: string | undefined;
   schedules?: ISchedule[] | undefined;
   title: string;
-  type: BannerItemType;
+  type: CardType;
 }
