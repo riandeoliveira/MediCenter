@@ -8,10 +8,10 @@ const Banner = (): JSX.Element => {
       <div className={styles.section_container}>
         <div className={styles.heading}>
           <h2 className={styles.title}>
-            Top notch <br /> experience
+            Top notch <br />experience
           </h2>
           <p className={styles.description}>
-            Medicenter is a responsive template <br /> perfect for all screen
+            Medicenter is a responsive template <br />perfect for all screen
             sizes
           </p>
         </div>

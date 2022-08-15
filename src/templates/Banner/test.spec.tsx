@@ -15,7 +15,7 @@ describe("Banner Template", () => {
       level: 2,
     }).textContent;
 
-    expect(title).toEqual("Top notch  experience");
+    expect(title).toEqual("Top notch experience");
   });
 
   it("should have three banner cards", () => {
