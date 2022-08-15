@@ -1,22 +1,22 @@
 import Schedule from "components/Schedule";
-import type { IBannerItem } from "interfaces";
+import type { ICard } from "interfaces";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-interface BannerItemProps extends IBannerItem {
+interface CardProps extends ICard {
   id: number;
 }
 
-const BannerItem = ({
+const Card = ({
   id,
   type,
   title,
   content,
   schedules,
-}: BannerItemProps): JSX.Element => {
+}: CardProps): JSX.Element => {
   return (
-    <div className={`${styles.container} ${styles[`item_${id}`]}`}>
-      <div className={styles.content_container}>
+    <div className={`${styles.card} ${styles[`card_${id}`]}`}>
+      <div className={styles.card_container}>
         <h3 className={styles.title}>{title}</h3>
         {type !== "schedule" && <p className={styles.content}>{content}</p>}
       </div>
@@ -36,4 +36,4 @@ const BannerItem = ({
   );
 };
 
-export default BannerItem;
+export default Card;

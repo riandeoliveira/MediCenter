@@ -1,1 +1,1 @@
-export type BannerItemType = "summary" | "schedule";
+export type CardType = "summary" | "schedule";

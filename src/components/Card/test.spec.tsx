@@ -1,15 +1,15 @@
 import { render, screen } from "@testing-library/react";
-import BannerItem from ".";
+import Card from ".";
 
-describe("BannerItem Component", () => {
-  it("should render the BannerItem component", () => {
-    render(<BannerItem id={0} type="summary" title="title" />);
+describe("Card Component", () => {
+  it("should render the Card component", () => {
+    render(<Card id={0} type="summary" title="title" />);
 
-    expect(BannerItem).toBeTruthy();
+    expect(Card).toBeTruthy();
   });
 
   it("should be of summary type", () => {
-    render(<BannerItem id={0} type="summary" title="title" />);
+    render(<Card id={0} type="summary" title="title" />);
 
     const linkButton: HTMLElement = screen.getByRole("link");
     const listElement: HTMLElement | null = screen.queryByRole("list");
@@ -19,7 +19,7 @@ describe("BannerItem Component", () => {
   });
 
   it("should be of schedule type", () => {
-    render(<BannerItem id={0} type="schedule" title="title" />);
+    render(<Card id={0} type="schedule" title="title" />);
 
     const listElement: HTMLElement = screen.getByRole("list");
     const linkButton: HTMLElement | null = screen.queryByRole("link");
