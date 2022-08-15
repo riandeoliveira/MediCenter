@@ -51,6 +51,7 @@
 
 .item_0 {
   background-color: $primary-420;
+  border-radius: 12px 0 0;
   justify-content: space-between;
 }
 
@@ -61,5 +62,13 @@
 
 .item_2 {
   background-color: $primary-580;
+  border-radius: 0 12px 0 0;
   gap: 4px;
+}
+
+@include media-query($tablet-l) {
+  .item_0,
+  .item_2 {
+    border-radius: 0;
+  }
 }
