@@ -24,8 +24,6 @@ describe("BannerItem Component", () => {
     const listElement: HTMLElement = screen.getByRole("list");
     const linkButton: HTMLElement | null = screen.queryByRole("link");
 
-    screen.debug();
-
     expect(listElement).toBeInTheDocument();
     expect(linkButton).not.toBeInTheDocument();
   });
