@@ -3,13 +3,13 @@ import BannerItem from ".";
 
 describe("BannerItem Component", () => {
   it("should render the BannerItem component", () => {
-    render(<BannerItem id={0} type="summary" title="" />);
+    render(<BannerItem id={0} type="summary" title="title" />);
 
     expect(BannerItem).toBeTruthy();
   });
 
   it("should be of summary type", () => {
-    render(<BannerItem id={0} type="summary" title="" />);
+    render(<BannerItem id={0} type="summary" title="title" />);
 
     const linkButton: HTMLElement = screen.getByRole("link");
     const listElement: HTMLElement | null = screen.queryByRole("list");
@@ -19,7 +19,7 @@ describe("BannerItem Component", () => {
   });
 
   it("should be of schedule type", () => {
-    render(<BannerItem id={0} type="schedule" title="" />);
+    render(<BannerItem id={0} type="schedule" title="title" />);
 
     const listElement: HTMLElement = screen.getByRole("list");
     const linkButton: HTMLElement | null = screen.queryByRole("link");
