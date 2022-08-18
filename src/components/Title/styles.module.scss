@@ -1,1 +1,19 @@
 @use "../../styles" as *;
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  color: $secondary-880;
+  font-family: $primary-group;
+  font-size: 20px;
+}
+
+.bar {
+  background-color: $primary-420;
+  height: 2px;
+  width: 50px;
+}
