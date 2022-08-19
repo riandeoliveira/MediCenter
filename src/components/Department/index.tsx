@@ -16,6 +16,8 @@ const Department = ({ href, source }: DepartmentProps): JSX.Element => {
           alt="Department image"
           width={190}
           height={190}
+          objectFit="cover"
+          className={styles.image}
         />
       </a>
     </Link>

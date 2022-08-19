@@ -2,4 +2,9 @@
 
 .link {
   display: flex;
+  flex-direction: column;
+}
+
+.image {
+  border-radius: 6px;
 }
