@@ -1,0 +1,24 @@
+@use "../../styles" as *;
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.heading {
+  color: $secondary-000;
+  display: flex;
+  font-size: 14px;
+  gap: 2px;
+}
+
+.date {
+  background-color: $primary-580;
+  padding: 10px;
+}
+
+.comments {
+  background-color: $primary-420;
+  padding: 10px;
+}
