@@ -8,10 +8,11 @@ const LatestNews = (): JSX.Element => {
     <section className={styles.section}>
       <Title name="Latest News" theme="dark" />
       <div className={styles.news}>
-        {news.map(({ title, content, image, date, comments }, i) => (
+        {news.map(({ title, content, href, image, date, comments }, i) => (
           <News
             title={title}
             content={content}
+            href={href}
             image={image}
             date={date}
             comments={comments}
