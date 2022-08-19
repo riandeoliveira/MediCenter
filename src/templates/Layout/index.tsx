@@ -5,7 +5,11 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
-  return <div className={styles.layout}>{children}</div>;
+  return (
+    <div className={styles.layout}>
+      <div className={styles.layout_container}>{children}</div>
+    </div>
+  );
 };
 
 export default Layout;

@@ -1,4 +1,13 @@
 @use "../../styles" as *;
 
 .layout {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  padding: 0 16px;
+}
+
+.layout_container {
+  display: flex;
+  width: 1200px;
 }
