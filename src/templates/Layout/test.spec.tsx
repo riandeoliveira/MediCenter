@@ -21,7 +21,7 @@ describe("Layout Template", () => {
       </Layout>
     );
 
-    const divElement: HTMLElement = screen.getByRole("layout");
+    const divElement: HTMLElement = screen.getByTestId("layout");
 
     expect(divElement).toHaveClass("layout");
   });
