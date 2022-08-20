@@ -10,8 +10,6 @@ describe("Layout Template", () => {
       </Layout>
     );
 
-    screen.debug();
-
     expect(Layout).toBeTruthy();
   });
 
