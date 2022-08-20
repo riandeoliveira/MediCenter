@@ -43,8 +43,16 @@
 }
 
 @include media-query($tablet-l) {
-  .section_container {
+  .section {
+    background: none;
     height: 1200px;
+  }
+
+  .heading {
+    background-image: url("../../../public/assets/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .cards {

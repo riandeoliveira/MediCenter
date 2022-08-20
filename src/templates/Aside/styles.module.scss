@@ -1,0 +1,8 @@
+@use "../../styles" as *;
+
+.aside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+}

@@ -1,0 +1,41 @@
+@use "../../styles" as *;
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.heading {
+  color: $secondary-000;
+  display: flex;
+  font-size: 14px;
+  gap: 2px;
+}
+
+.date {
+  background-color: $primary-580;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.comments {
+  background-color: $primary-420;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.image {
+  border-radius: 6px;
+}
+
+.title {
+  color: $secondary-880;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.content {
+  color: $secondary-600;
+  font-size: 14px;
+}
