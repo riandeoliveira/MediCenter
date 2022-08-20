@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 const LatestNews = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title name="Latest News" theme="dark" />
+      <Title label="Latest News" theme="dark" />
       <div className={styles.news}>
         {news.map(({ title, content, href, image, date, comments }, i) => (
           <News
