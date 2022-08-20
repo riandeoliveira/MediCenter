@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 const Departments = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title name="Departments" theme="dark" />
+      <Title label="Departments" theme="dark" />
       <div className={styles.departments}>
         {departments.map(({ source, href }, i) => (
           <Department source={source} href={href} key={i} />

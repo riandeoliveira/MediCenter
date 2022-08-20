@@ -1,6 +1,7 @@
 @use "../../styles" as *;
 
 .card {
+  color: $secondary-000;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -51,7 +52,6 @@
 
 .card_0 {
   background-color: $primary-420;
-  border-radius: 12px 0 0;
   justify-content: space-between;
 }
 
@@ -62,8 +62,11 @@
 
 .card_2 {
   background-color: $primary-580;
-  border-radius: 0 12px 0 0;
   gap: 4px;
+}
+
+.simple {
+  margin-bottom: 0;
 }
 
 @include media-query($tablet-l) {

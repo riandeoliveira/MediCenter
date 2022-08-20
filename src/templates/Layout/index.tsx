@@ -6,7 +6,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
-    <div className={styles.layout}>
+    <div className={styles.layout} data-testid="layout">
       <div className={styles.layout_container}>{children}</div>
     </div>
   );

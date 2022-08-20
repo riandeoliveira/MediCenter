@@ -1,14 +1,14 @@
 import styles from "./styles.module.scss";
 
 interface TitleProps {
-  name: string;
   theme: "dark" | "light";
+  label: string;
 }
 
-const Title = ({ name, theme }: TitleProps): JSX.Element => {
+const Title = ({ theme, label }: TitleProps): JSX.Element => {
   return (
     <div className={styles.title_container}>
-      <h2 className={styles.title}>{name}</h2>
+      <h2 className={`${styles.title} ${styles[theme]}`}>{label}</h2>
       <hr className={styles.bar} />
     </div>
   );

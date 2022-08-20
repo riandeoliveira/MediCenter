@@ -18,7 +18,15 @@ const Card = ({
     <div className={`${styles.card} ${styles[`card_${id}`]}`}>
       <div className={styles.card_container}>
         <h3 className={styles.title}>{title}</h3>
-        {type !== "schedule" && <p className={styles.content}>{content}</p>}
+        {type !== "schedule" && (
+          <p
+            className={`${styles.content} ${
+              type === "simple" ? styles[type] : ""
+            }`}
+          >
+            {content}
+          </p>
+        )}
       </div>
       {type === "summary" && (
         <Link href="/">

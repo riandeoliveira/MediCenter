@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
-import Appoitments from "templates/Appointments";
+import Appointments from "templates/Appointments";
 import Aside from "templates/Aside";
 import Banner from "templates/Banner";
 import Departments from "templates/Departments";
+import Footer from "templates/Footer";
 import Header from "templates/Header";
 import LatestNews from "templates/LatestNews";
 import Layout from "templates/Layout";
@@ -19,9 +20,10 @@ const Home: NextPage = (): JSX.Element => {
         </Main>
         <Aside>
           <Departments />
-          <Appoitments />
+          <Appointments />
         </Aside>
       </Layout>
+      <Footer />
     </>
   );
 };
