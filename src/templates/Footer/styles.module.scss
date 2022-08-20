@@ -1,0 +1,21 @@
+@use "../../styles" as *;
+
+.footer {
+  background-color: $secondary-880;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.cards {
+  display: flex;
+
+  @include media-query($tablet-l) {
+    flex-direction: column;
+  }
+}

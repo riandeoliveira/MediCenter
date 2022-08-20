@@ -3,6 +3,7 @@ import Appointments from "templates/Appointments";
 import Aside from "templates/Aside";
 import Banner from "templates/Banner";
 import Departments from "templates/Departments";
+import Footer from "templates/Footer";
 import Header from "templates/Header";
 import LatestNews from "templates/LatestNews";
 import Layout from "templates/Layout";
@@ -22,6 +23,7 @@ const Home: NextPage = (): JSX.Element => {
           <Appointments />
         </Aside>
       </Layout>
+      <Footer />
     </>
   );
 };
