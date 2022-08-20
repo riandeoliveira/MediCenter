@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Appoitments from "templates/Appointments";
 import Aside from "templates/Aside";
 import Banner from "templates/Banner";
 import Departments from "templates/Departments";
@@ -18,6 +19,7 @@ const Home: NextPage = (): JSX.Element => {
         </Main>
         <Aside>
           <Departments />
+          <Appoitments />
         </Aside>
       </Layout>
     </>
