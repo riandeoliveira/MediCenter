@@ -1,1 +1,1 @@
-export type CardType = "summary" | "schedule";
+export type CardType = "summary" | "schedule" | "simple";
