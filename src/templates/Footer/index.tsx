@@ -15,7 +15,9 @@ const Footer = (): JSX.Element => {
           <LatestTweets />
         </div>
         <div className={styles.copyright_container}>
-          <span className={styles.copyright}>Copyright © 2022. All rights reserved</span>
+          <span className={styles.copyright}>
+            Copyright © 2022. All rights reserved
+          </span>
         </div>
       </div>
     </footer>
