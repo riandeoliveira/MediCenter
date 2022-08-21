@@ -18,7 +18,7 @@
 }
 
 .link {
-  @include accessibility($secondary-000);
+  @include focus("large", $secondary-000, "dark");
 
   border: 1px solid $secondary-000;
   color: $secondary-000;

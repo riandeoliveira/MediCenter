@@ -23,3 +23,7 @@
   color: $secondary-000;
   padding: 6px;
 }
+
+.link {
+  @include focus("small", $primary-420);
+}

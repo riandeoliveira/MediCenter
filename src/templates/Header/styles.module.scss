@@ -16,7 +16,7 @@
 }
 
 .link {
-  @include accessibility($primary-420);
+  @include focus("large", $primary-420);
 
   align-items: center;
   display: flex;
@@ -38,8 +38,6 @@
 }
 
 .button {
-  @include accessibility($primary-420);
-
   background-color: transparent;
   color: $primary-420;
   cursor: pointer;

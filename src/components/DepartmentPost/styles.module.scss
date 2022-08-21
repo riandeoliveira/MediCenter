@@ -1,6 +1,9 @@
 @use "../../styles" as *;
 
 .link {
+  @include focus("large", $primary-420);
+
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
 }

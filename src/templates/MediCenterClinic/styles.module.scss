@@ -25,6 +25,8 @@
 }
 
 .mail_link {
+  @include focus("small", $primary-420);
+
   color: $secondary-000;
   transition: color 0.15s;
 
@@ -39,6 +41,9 @@
 }
 
 .social_media_link {
+  @include focus("large", $secondary-000, "dark");
+
+  border-radius: 6px;
   display: flex;
 }
 

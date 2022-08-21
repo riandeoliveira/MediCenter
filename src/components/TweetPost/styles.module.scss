@@ -12,6 +12,8 @@
 }
 
 .origin {
+  @include focus("small", $primary-420);
+
   color: $secondary-000;
   margin-left: 2px;
   transition: color 0.15s;
@@ -22,6 +24,8 @@
 }
 
 .date {
+  @include focus("small", $secondary-000, "dark");
+
   color: $primary-420;
   transition: color 0.15s;
   width: fit-content;

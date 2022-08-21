@@ -12,6 +12,8 @@
 }
 
 .date {
+  @include focus("small", $secondary-000, "dark");
+
   color: $primary-420;
   transition: color 0.15s;
   width: fit-content;
