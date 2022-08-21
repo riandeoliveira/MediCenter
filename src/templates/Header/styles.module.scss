@@ -25,12 +25,14 @@
 
 .logo {
   color: $primary-420;
+  transition: height 0.15s, width 0.15s;
 }
 
 .title {
   color: $secondary-880;
   font-size: 24px;
   font-weight: 500;
+  transition: font-size 0.15s;
 }
 
 .mobile_menu {
@@ -63,5 +65,16 @@
 
   .active {
     display: flex;
+  }
+}
+
+@include media-query($mobile-l) {
+  .logo {
+    height: 32px;
+    width: 32px;
+  }
+
+  .title {
+    font-size: 20px;
   }
 }
