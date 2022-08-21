@@ -7,7 +7,6 @@
 }
 
 .description {
-  font-family: $primary-group;
-  font-size: 14px;
+  font: 14px $primary-group;
   line-height: 1.6;
 }
