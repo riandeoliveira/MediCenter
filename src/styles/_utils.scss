@@ -1,4 +1,5 @@
 @use "./colors" as *;
+@use "./fonts" as *;
 
 @mixin accessibility($color) {
   border-radius: 0.25rem;
@@ -7,5 +8,38 @@
 
   &:focus-visible {
     box-shadow: 0 0 0 0.25rem $color;
+  }
+}
+
+@mixin card {
+  .card {
+    color: $secondary-000;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 26px 32px;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    font-family: $secondary-group;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .light {
+    background-color: $primary-420;
+  }
+
+  .neutral {
+    background-color: $primary-590;
+  }
+
+  .dark {
+    background-color: $primary-580;
   }
 }

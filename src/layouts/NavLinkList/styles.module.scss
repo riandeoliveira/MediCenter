@@ -1,0 +1,10 @@
+@use "../../styles" as *;
+
+.list {
+  display: flex;
+
+  @include media-query($laptop-s) {
+    flex-direction: column;
+    width: 100%;
+  }
+}

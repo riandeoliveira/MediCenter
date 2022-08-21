@@ -1,16 +1,11 @@
-import Card from "components/Card";
-import cards from "./content";
+import InfoCardList from "layouts/InfoCardList";
 import styles from "./styles.module.scss";
 
 const Footer = (): JSX.Element => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer_container}>
-        <div className={styles.cards}>
-          {cards.map(({ type, title, content }, i) => (
-            <Card id={i} type={type} title={title} content={content} key={i} />
-          ))}
-        </div>
+        <InfoCardList />
       </div>
     </footer>
   );

@@ -19,14 +19,6 @@ describe("Header Template", () => {
     expect(websiteName).toBeInTheDocument();
   });
 
-  it("should have all the eight nav links", () => {
-    render(<Header />);
-
-    const listItems: HTMLElement[] = screen.getAllByRole("listitem");
-
-    expect(listItems).toHaveLength(8);
-  });
-
   it("should open mobile menu", () => {
     render(<Header />);
 

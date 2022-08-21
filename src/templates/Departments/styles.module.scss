@@ -5,13 +5,3 @@
   flex-direction: column;
   gap: 20px;
 }
-
-.departments {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-
-  @include media-query($laptop-s) {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
