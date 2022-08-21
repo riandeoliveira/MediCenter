@@ -1,7 +1,6 @@
 import Title from "components/Title";
+import { FaClipboardList, FaPhone, HiOutlineMail } from "libs/react-icons";
 import Link from "next/link";
-import { FaClipboardList, FaPhone } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 
 import styles from "./styles.module.scss";
 
