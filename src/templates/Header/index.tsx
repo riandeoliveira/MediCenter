@@ -1,9 +1,8 @@
-import NavItem from "components/NavItem";
+import NavLinkList from "layouts/NavLinkList";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose, CgMenu } from "react-icons/cg";
 import { IoMdMedical } from "react-icons/io";
-import navItems from "./content.json";
 import styles from "./styles.module.scss";
 
 const Header = (): JSX.Element => {
@@ -34,11 +33,7 @@ const Header = (): JSX.Element => {
           </button>
         </div>
         <nav className={`${styles.nav} ${menuIsOpen ? styles.active : ""}`}>
-          <ul className={styles.list}>
-            {navItems.map(({ title, path }, i) => (
-              <NavItem title={title} path={path} key={i} />
-            ))}
-          </ul>
+          <NavLinkList />
         </nav>
       </div>
     </header>

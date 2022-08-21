@@ -1,0 +1,36 @@
+@use "../../styles" as *;
+
+@include card;
+
+.card {
+  gap: 26px;
+  justify-content: space-between;
+}
+
+.card_container {
+  gap: 16px;
+}
+
+.content {
+  font-family: $primary-group;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.link {
+  @include accessibility($secondary-000);
+
+  border: 1px solid $secondary-000;
+  color: $secondary-000;
+  font-family: $primary-group;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 18px;
+  transition: background-color 0.15s, box-shadow 0.15s, color 0.15s;
+  width: 120px;
+
+  &:hover {
+    background-color: $secondary-000;
+    color: $secondary-600;
+  }
+}

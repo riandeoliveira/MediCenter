@@ -1,0 +1,9 @@
+@use "../../styles" as *;
+
+.cards {
+  display: flex;
+
+  @include media-query($tablet-l) {
+    flex-direction: column;
+  }
+}

@@ -1,13 +1,14 @@
-import type { CardType } from "types";
-
-export interface ISchedule {
-  days: string;
-  hours: string;
+export interface ICard {
+  description: string;
+  label: string;
+  theme: "light" | "neutral" | "dark";
 }
 
-export interface ICard {
-  content?: string | undefined;
-  schedules?: ISchedule[] | undefined;
+export interface INewsPost {
+  href: string;
+  date: string;
+  comments: number;
+  image: string;
   title: string;
-  type: CardType;
+  content: string;
 }

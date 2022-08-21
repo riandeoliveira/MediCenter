@@ -1,0 +1,17 @@
+@use "../../styles" as *;
+
+@include card;
+
+.list {
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-group;
+
+  li {
+    border-bottom: 1px solid #ffffff1a;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+}

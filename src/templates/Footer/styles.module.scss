@@ -11,11 +11,3 @@
   flex-direction: column;
   width: 1200px;
 }
-
-.cards {
-  display: flex;
-
-  @include media-query($tablet-l) {
-    flex-direction: column;
-  }
-}

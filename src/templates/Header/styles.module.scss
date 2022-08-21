@@ -46,10 +46,6 @@
   display: flex;
 }
 
-.list {
-  display: flex;
-}
-
 @include media-query($laptop-s) {
   .mobile_menu {
     display: flex;
@@ -63,11 +59,6 @@
     position: absolute;
     right: 16px;
     top: 90px;
-  }
-
-  .list {
-    flex-direction: column;
-    width: 100%;
   }
 
   .active {
