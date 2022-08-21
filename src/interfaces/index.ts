@@ -5,10 +5,16 @@ export interface ICard {
 }
 
 export interface INewsPost {
-  href: string;
-  date: string;
   comments: number;
+  content: string;
+  date: string;
+  href: string;
   image: string;
   title: string;
+}
+
+export interface IFooterPost {
   content: string;
+  date: string;
+  origin: string;
 }
