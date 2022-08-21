@@ -38,6 +38,8 @@
 }
 
 .button {
+  @include focus("large", $primary-420);
+
   background-color: transparent;
   color: $primary-420;
   cursor: pointer;
