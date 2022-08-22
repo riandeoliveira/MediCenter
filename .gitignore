@@ -1,7 +1,7 @@
 .env
 .husky
-.swc
 .next
+.swc
 .vercel
 /build
 /coverage
