@@ -7,7 +7,7 @@ import styles from "./styles.module.scss";
 const Appoitments = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title label="Make An Appointment" theme="dark" />
+      <Title theme="dark">Make An Appointment</Title>
       <p>
         Lorem ipsum sit amet, consectetur adipiscing elit. Ut volupat rutrum
         eros sit amet sollicitudin.

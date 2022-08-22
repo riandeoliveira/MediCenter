@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const LatestPosts = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title label="Latest Posts" theme="light" />
+      <Title theme="light">Latest Posts</Title>
       <PostList />
     </section>
   );
