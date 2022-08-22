@@ -3,13 +3,13 @@ import Title from ".";
 
 describe("Title Component", () => {
   it("should render the Title component", () => {
-    render(<Title label="Lorem Ipsum" theme="dark" />);
+    render(<Title theme="dark">Lorem Ipsum</Title>);
 
     expect(Title).toBeTruthy();
   });
 
   it("should have a level two heading", () => {
-    render(<Title label="Lorem Ipsum" theme="dark" />);
+    render(<Title theme="dark">Lorem Ipsum</Title>);
 
     const heading: HTMLElement = screen.getByRole("heading", { level: 2 });
 
@@ -17,7 +17,7 @@ describe("Title Component", () => {
   });
 
   it("should have a dark heading", () => {
-    render(<Title label="Lorem Ipsum" theme="dark" />);
+    render(<Title theme="dark">Lorem Ipsum</Title>);
 
     const heading: HTMLElement = screen.getByRole("heading", { level: 2 });
 
@@ -25,7 +25,7 @@ describe("Title Component", () => {
   });
 
   it("should have a light heading", () => {
-    render(<Title label="Lorem Ipsum" theme="light" />);
+    render(<Title theme="light">Lorem Ipsum</Title>);
 
     const heading: HTMLElement = screen.getByRole("heading", { level: 2 });
 
