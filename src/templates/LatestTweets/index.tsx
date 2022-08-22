@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const LatestTweets = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title label="Latest Tweets" theme="light" />
+      <Title theme="light">Latest Tweets</Title>
       <TweetPostList />
     </section>
   );

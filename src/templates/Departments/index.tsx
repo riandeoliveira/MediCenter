@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 const Departments = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title label="Departments" theme="dark" />
+      <Title theme="dark">Departments</Title>
       <DepartmentPostList />
     </section>
   );

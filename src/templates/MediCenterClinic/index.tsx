@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 const MediCenterClinic = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Title label="MediCenter Clinic" theme="light" />
+      <Title theme="light">MediCenter Clinic</Title>
       <p className={styles.description}>
         Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi
         malesuada individual.
