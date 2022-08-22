@@ -5,39 +5,39 @@
 
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 2.2rem;
 }
 
 .heading {
   color: $secondary-000;
   display: flex;
-  font-size: 14px;
-  gap: 2px;
+  font-size: 1.4rem;
+  gap: 0.2rem;
 }
 
 .date {
   background-color: $primary-580;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 0.6rem;
+  padding: 1rem;
 }
 
 .comments {
   background-color: $primary-420;
-  border-radius: 6px;
-  padding: 10px;
+  border-radius: 0.6rem;
+  padding: 1rem;
 }
 
 .image {
-  border-radius: 6px;
+  border-radius: 0.6rem;
 }
 
 .title {
   color: $secondary-880;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
 .content {
   color: $secondary-600;
-  font-size: 14px;
+  font-size: 1.4rem;
 }

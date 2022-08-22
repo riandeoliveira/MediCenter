@@ -3,28 +3,28 @@
 @include card;
 
 .card {
-  gap: 26px;
+  gap: 2.6rem;
   justify-content: space-between;
 }
 
 .card_container {
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .description {
-  font: 14px/1.6 $primary-group;
+  font: 1.4rem/1.6 $primary-group;
 }
 
 .link {
   @include focus("large", $secondary-000, "dark");
 
-  border: 1px solid $secondary-000;
+  border: 0.1rem solid $secondary-000;
   color: $secondary-000;
-  font: 600 14px $primary-group;
-  padding: 12px;
+  font: 600 1.4rem $primary-group;
+  padding: 1.2rem;
   text-align: center;
   transition: background-color 0.15s, box-shadow 0.15s, color 0.15s;
-  width: 120px;
+  width: 12rem;
 
   &:hover {
     background-color: $secondary-000;

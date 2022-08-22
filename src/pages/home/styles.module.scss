@@ -3,32 +3,32 @@
 .layout {
   display: flex;
   justify-content: center;
-  margin: 32px 0;
-  padding: 0 16px;
+  margin: 3.2rem 0;
+  padding: 0 1.6rem;
 }
 
 .layout_container {
   display: flex;
-  width: 1200px;
+  width: 120rem;
 }
 
 .main {
   display: flex;
   flex: 2;
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 
 .aside {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 @include media-query($tablet-m) {
   .layout_container {
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
   }
 
   .main {

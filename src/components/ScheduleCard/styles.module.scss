@@ -8,10 +8,10 @@
   font-family: $primary-group;
 
   li {
-    border-bottom: 1px solid #ffffff1a;
+    border-bottom: 0.1rem solid #ffffff1a;
     display: flex;
-    font-size: 14px;
+    font-size: 1.4rem;
     justify-content: space-between;
-    padding: 12px 0;
+    padding: 1.2rem 0;
   }
 }
