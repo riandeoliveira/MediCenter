@@ -22,9 +22,8 @@ const Banner = (): JSX.Element => {
             call emergency appointment number for emergency service.
           </LinkableCard>
           <LinkableCard label="Doctors Timetable" theme="neutral">
-            Here at medicenter we have individual doctor&#39;s lists. Click
-            read more below to see services and current timetable for our
-            doctors.
+            Here at medicenter we have individual doctor&#39;s lists. Click read
+            more below to see services and current timetable for our doctors.
           </LinkableCard>
           <ScheduleCard label="Opening Hours" theme="dark">
             <li>
