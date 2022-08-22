@@ -16,9 +16,7 @@
   }
 
   .label {
-    font-family: $secondary-group;
-    font-size: 2.4rem;
-    font-weight: normal;
+    font: normal 2.4rem $secondary-group;
   }
 
   .light {

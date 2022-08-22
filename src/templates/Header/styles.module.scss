@@ -30,8 +30,7 @@
 
 .title {
   color: $secondary-880;
-  font-size: 2.4rem;
-  font-weight: 500;
+  font: 500 2.4rem $primary-group;
   transition: font-size 0.15s;
 }
 

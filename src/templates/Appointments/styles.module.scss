@@ -4,8 +4,7 @@
   color: $secondary-600;
   display: flex;
   flex-direction: column;
-  font-family: $primary-group;
-  font-size: 1.4rem;
+  font: 1.4rem $primary-group;
   gap: 2rem;
 }
 

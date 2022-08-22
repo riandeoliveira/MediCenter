@@ -5,12 +5,11 @@
 .list {
   display: flex;
   flex-direction: column;
-  font-family: $primary-group;
 
   li {
     border-bottom: 0.1rem solid #ffffff1a;
     display: flex;
-    font-size: 1.4rem;
+    font: 1.4rem $primary-group;
     justify-content: space-between;
     padding: 1.2rem 0;
   }
