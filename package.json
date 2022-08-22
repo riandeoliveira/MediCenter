@@ -19,11 +19,11 @@
     "eslint": "next lint",
     "format": "prettier --write --ignore-unknown .",
     "lint": "yarn format & yarn stylelint & yarn eslint",
-    "prebuild": "yarn lint",
+    "prebuild": "yarn lint & yarn test",
     "prepare": "husky install",
     "start": "next start",
     "stylelint": "stylelint **/*.scss",
-    "test:coverage": "jest --coverage",
+    "test:coverage": "jest --coverage & start coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
     "test": "jest"
   },
