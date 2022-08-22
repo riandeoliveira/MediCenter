@@ -2,7 +2,7 @@
 
 .news_posts {
   display: grid;
-  gap: 20px;
+  gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
 
   @include media-query($laptop-s) {

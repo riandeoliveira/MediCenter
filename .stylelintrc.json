@@ -36,7 +36,6 @@
     "function-url-no-scheme-relative": true,
     "function-url-quotes": "always",
     "function-whitespace-after": "always",
-    "import-notation": "string",
     "indentation": 2,
     "keyframe-block-no-duplicate-selectors": true,
     "keyframe-declaration-no-important": true,

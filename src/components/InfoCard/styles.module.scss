@@ -3,11 +3,9 @@
 @include card;
 
 .card_container {
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .description {
-  font-family: $primary-group;
-  font-size: 14px;
-  line-height: 1.6;
+  font: 1.4rem/1.6 $primary-group;
 }

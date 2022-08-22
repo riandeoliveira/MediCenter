@@ -1,0 +1,36 @@
+@use "../../styles" as *;
+
+.tweet {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  gap: 0.4rem;
+}
+
+.content {
+  color: $secondary-600;
+}
+
+.origin {
+  @include focus("small", $primary-420);
+
+  color: $secondary-000;
+  margin-left: 0.2rem;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $primary-420;
+  }
+}
+
+.date {
+  @include focus("small", $secondary-000, "dark");
+
+  color: $primary-420;
+  transition: color 0.15s;
+  width: fit-content;
+
+  &:hover {
+    color: $primary-590;
+  }
+}

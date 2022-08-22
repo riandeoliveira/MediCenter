@@ -1,10 +1,13 @@
 @use "../../styles" as *;
 
 .link {
+  @include focus("large", $primary-420);
+
+  border-radius: 0.6rem;
   display: flex;
   flex-direction: column;
 }
 
 .image {
-  border-radius: 6px;
+  border-radius: 0.6rem;
 }

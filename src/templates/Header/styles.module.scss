@@ -3,34 +3,35 @@
 .header {
   display: flex;
   font-family: $primary-group;
-  height: 80px;
+  height: 8rem;
   justify-content: center;
-  padding: 0 16px;
+  padding: 0 1.6rem;
 }
 
 .header_container {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: 120rem;
 }
 
 .link {
-  @include accessibility($primary-420);
+  @include focus("large", $primary-420);
 
   align-items: center;
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .logo {
   color: $primary-420;
+  transition: height 0.15s, width 0.15s;
 }
 
 .title {
   color: $secondary-880;
-  font-size: 24px;
-  font-weight: 500;
+  font: 500 2.4rem $primary-group;
+  transition: font-size 0.15s;
 }
 
 .mobile_menu {
@@ -38,7 +39,7 @@
 }
 
 .button {
-  @include accessibility($primary-420);
+  @include focus("large", $primary-420);
 
   background-color: transparent;
   color: $primary-420;
@@ -53,15 +54,26 @@
 
   .nav {
     background-color: $secondary-000;
-    border-radius: 4px;
+    border-radius: 0.4rem;
     display: none;
     left: 50%;
     position: absolute;
-    right: 16px;
-    top: 90px;
+    right: 1.6rem;
+    top: 9rem;
   }
 
   .active {
     display: flex;
+  }
+}
+
+@include media-query($mobile-l) {
+  .logo {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
   }
 }

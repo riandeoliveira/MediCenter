@@ -24,7 +24,7 @@ const Appoitments = (): JSX.Element => {
           <span>
             by email:{" "}
             <Link href="mailto:medicenter@mail.com">
-              <a>medicenter@mail.com</a>
+              <a className={styles.link}>medicenter@mail.com</a>
             </Link>
           </span>
         </li>
@@ -33,7 +33,7 @@ const Appoitments = (): JSX.Element => {
           <span>
             or{" "}
             <Link href="/">
-              <a>fill in the form</a>
+              <a className={styles.link}>fill in the form</a>
             </Link>{" "}
             on our contact page
           </span>

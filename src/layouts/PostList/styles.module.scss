@@ -1,7 +1,7 @@
 @use "../../styles" as *;
 
-.section {
+.posts {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
 }
