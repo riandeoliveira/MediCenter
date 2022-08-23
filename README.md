@@ -1,24 +1,20 @@
 <div align="center">
-  <h1>MediCenter</h1>
+  <img src=".github/logo.png" alt="B7 Web logo" />
+  <br>
+  <h1>🚀 MediCenter - #B7Web 🚀</h1>
 </div>
 
 ## 📚 Sobre
 
-<!-- Uma breve descrição do seu projeto -->
+Página inicial de um website reponsivo e acessível para uma clínica médica fictícia.
 
 ## 🏗️ Desenvolvimento
 
-<!-- Detalhes sobre o desenvolvimento -->
-
-## 🕹️ Possui as seguintes funcionalidades:
-
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
+Desenvolvido durante o curso de [HTML5 e CSS3](https://alunos.b7web.com.br/curso/html5-e-css3/projeto-site-com-flexbox-e-html-semantico-parte-1) do professor [Bonieky Lacerda](https://www.instagram.com/bonieky/), CEO da [B7Web](https://b7web.com.br/fullstack/).
 
 ## 📝 Notas
 
-<!-- Notas sobre o projeto -->
+O desenvolvimento foi concluído em Dezembro de 2021, porém, em agosto de 2022 recebeu uma repaginada por mim, desta vez se utilizando de tecnologias mais modernas, como: ReactJS, NextJS, TypeScript e SASS.
 
 ## 🔎 Demonstração
 
@@ -81,26 +77,18 @@
       </td>
     </tr>
     <tr>
+      <td align="center" width="110" height="110"></td>
       <td align="center" width="110" height="110">
         <img src="https://skillicons.dev/icons?i=jest" />
         <br>
         <span>Jest</span>
       </td>
       <td align="center" width="110" height="110">
-        <img src="https://skillicons.dev/icons?i=mongodb" />
-        <br>
-        <span>MongoDB</span>
-      </td>
-      <td align="center" width="110" height="110">
         <img src="https://skillicons.dev/icons?i=nodejs" />
         <br>
         <span>NodeJS</span>
       </td>
-      <td align="center" width="110" height="110">
-        <img src="https://skillicons.dev/icons?i=prisma" />
-        <br>
-        <span>Prisma</span>
-      </td>
+      <td align="center" width="110" height="110"></td>
     </tr>
   </tbody>
 </table>
