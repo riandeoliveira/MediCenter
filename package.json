@@ -1,7 +1,7 @@
 {
   "name": "medicenter",
-  "description": "<YOUR_PROJECT_DESCRIPTION>",
-  "version": "0.1.0",
+  "description": "Página inicial de um website reponsivo e acessível para uma clínica médica fictícia.",
+  "version": "2.0.0",
   "license": "MIT",
   "type": "module",
   "private": true,
@@ -9,7 +9,7 @@
   "main": "src/pages/_app.tsx",
   "author": {
     "name": "Rian Oliveira",
-    "email": "<YOUR_EMAIL>"
+    "email": "riandiasdeoliveira2001@gmail.com"
   },
   "scripts": {
     "build": "next build",
@@ -63,9 +63,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "<YOUR_REPOSITORY_URL>"
+    "url": "https://github.com/riandeoliveira/MediCenter.git"
   },
-  "keywords": [],
+  "keywords": [
+    "b7web",
+    "bonieky",
+    "javascript",
+    "nextjs",
+    "react",
+    "sass",
+    "typescript"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
