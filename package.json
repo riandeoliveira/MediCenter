@@ -19,7 +19,7 @@
     "eslint": "next lint",
     "format": "prettier --write --ignore-unknown .",
     "lint": "yarn format & yarn stylelint & yarn eslint",
-    "prebuild": "yarn lint & yarn test",
+    "prebuild": "yarn lint",
     "prepare": "husky install",
     "start": "next start",
     "stylelint": "stylelint **/*.scss",
