@@ -1,0 +1,7 @@
+@use "../../styles" as *;
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}

@@ -1,0 +1,11 @@
+@use "../../styles" as *;
+
+@include card;
+
+.card_container {
+  gap: 1.6rem;
+}
+
+.description {
+  font: 1.4rem/1.6 $primary-group;
+}

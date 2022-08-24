@@ -1,0 +1,25 @@
+@use "../../styles" as *;
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font: 500 2rem $primary-group;
+}
+
+.bar {
+  background-color: $primary-420;
+  height: 0.2rem;
+  width: 5rem;
+}
+
+.dark {
+  color: $secondary-880;
+}
+
+.light {
+  color: $secondary-000;
+}

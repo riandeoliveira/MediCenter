@@ -1,0 +1,33 @@
+@use "../../styles" as *;
+
+@include card;
+
+.card {
+  gap: 2.6rem;
+  justify-content: space-between;
+}
+
+.card_container {
+  gap: 1.6rem;
+}
+
+.description {
+  font: 1.4rem/1.6 $primary-group;
+}
+
+.link {
+  @include focus("large", $secondary-000, "dark");
+
+  border: 0.1rem solid $secondary-000;
+  color: $secondary-000;
+  font: 600 1.4rem $primary-group;
+  padding: 1.2rem;
+  text-align: center;
+  transition: background-color 0.15s, box-shadow 0.15s, color 0.15s;
+  width: 12rem;
+
+  &:hover {
+    background-color: $secondary-000;
+    color: $secondary-600;
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit amat velum",
+    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, necessitatibus. Quis, debitis quas. Libero, aliquid ea! Quia tenetur, unde modi sunt provident sapiente similique et. Laborum, quae. Quos, minima doloribus.",
+    "href": "/",
+    "image": "news-1",
+    "date": "12 DEC 12",
+    "comments": 2
+  },
+  {
+    "title": "Lorem ipsum dolor sit amat velum",
+    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, necessitatibus. Quis, debitis quas. Libero, aliquid ea! Quia tenetur, unde modi sunt provident sapiente similique et. Laborum, quae. Quos, minima doloribus.",
+    "href": "/",
+    "image": "news-2",
+    "date": "12 DEC 12",
+    "comments": 2
+  },
+  {
+    "title": "Lorem ipsum dolor sit amat velum",
+    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, necessitatibus. Quis, debitis quas. Libero, aliquid ea! Quia tenetur, unde modi sunt provident sapiente similique et. Laborum, quae. Quos, minima doloribus.",
+    "href": "/",
+    "image": "news-3",
+    "date": "12 DEC 12",
+    "comments": 2
+  },
+  {
+    "title": "Lorem ipsum dolor sit amat velum",
+    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, necessitatibus. Quis, debitis quas. Libero, aliquid ea! Quia tenetur, unde modi sunt provident sapiente similique et. Laborum, quae. Quos, minima doloribus.",
+    "href": "/",
+    "image": "news-4",
+    "date": "12 DEC 12",
+    "comments": 2
+  }
+]

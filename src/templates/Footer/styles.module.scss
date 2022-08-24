@@ -1,0 +1,46 @@
+@use "../../styles" as *;
+
+.footer {
+  background-color: $secondary-880;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  width: 120rem;
+}
+
+.container {
+  display: flex;
+  font-family: $primary-group;
+  gap: 1.6rem;
+  padding: 0 1.6rem;
+
+  @include media-query($tablet-l) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.copyright_container {
+  border-top: 0.1rem solid #2c2c2c;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1.6rem;
+}
+
+.copyright {
+  align-items: center;
+  color: $secondary-600;
+  display: flex;
+  font-family: $primary-group;
+  text-align: center;
+  transition: font-size 0.15s;
+
+  @include media-query($mobile-l) {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,79 @@
+@use "../../styles" as *;
+
+.header {
+  display: flex;
+  font-family: $primary-group;
+  height: 8rem;
+  justify-content: center;
+  padding: 0 1.6rem;
+}
+
+.header_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 120rem;
+}
+
+.link {
+  @include focus("large", $primary-420);
+
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.logo {
+  color: $primary-420;
+  transition: height 0.15s, width 0.15s;
+}
+
+.title {
+  color: $secondary-880;
+  font: 500 2.4rem $primary-group;
+  transition: font-size 0.15s;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+.button {
+  @include focus("large", $primary-420);
+
+  background-color: transparent;
+  color: $primary-420;
+  cursor: pointer;
+  display: flex;
+}
+
+@include media-query($laptop-s) {
+  .mobile_menu {
+    display: flex;
+  }
+
+  .nav {
+    background-color: $secondary-000;
+    border-radius: 0.4rem;
+    display: none;
+    left: 50%;
+    position: absolute;
+    right: 1.6rem;
+    top: 9rem;
+  }
+
+  .active {
+    display: flex;
+  }
+}
+
+@include media-query($mobile-l) {
+  .logo {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,28 @@
+@use "../../styles" as *;
+
+.section {
+  color: $secondary-600;
+  display: flex;
+  flex-direction: column;
+  font: 1.4rem $primary-group;
+  gap: 2rem;
+}
+
+.item {
+  align-items: center;
+  border-bottom: 0.1rem solid $primary-590;
+  display: flex;
+  gap: 1rem;
+  padding: 1.6rem 0;
+}
+
+.icon {
+  background-color: $primary-590;
+  border-radius: 0.6rem;
+  color: $secondary-000;
+  padding: 0.6rem;
+}
+
+.link {
+  @include focus("small", $primary-420);
+}
