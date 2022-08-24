@@ -24,7 +24,7 @@ O desenvolvimento foi concluído em Dezembro de 2021, porém, em agosto de 2022 
 
 ## 💻 Como acessar
 
-<!-- Onde a sua aplicação está hospedada? -->
+A aplicação está hospedada na **Vercel** e pode ser acessada [aqui](https://medicenter-beryl.vercel.app/).
 
 ## 🛠️ Tecnologias utilizadas
 
